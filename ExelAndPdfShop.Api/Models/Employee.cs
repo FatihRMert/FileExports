@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace ExelAndPdfShop.Api.Models
+{
+    public class Employee
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public DateTime JoinDate { get; set; }
+    }
+}
